@@ -106,7 +106,7 @@ public class EstructurasCondicionales {
             return;
         }
         
-        System.out.println("Descuento aplicado: " + descuento * 100);
+        System.out.println("Descuento aplicado: " + descuento * 100 + "%");
         System.out.println("Precio final: " + (precioProducto - (precioProducto * descuento)));
     }
 }
